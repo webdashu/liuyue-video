@@ -46,7 +46,8 @@ const canvas = {
     },
     toDataURL(ctx){
         return ctx.toDataURL('image/jpg');
-    }
+    },
+    toMedia(){}
 
 }
 
