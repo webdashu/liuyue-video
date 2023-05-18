@@ -73,7 +73,6 @@ export default {
         }
         return {
             default: temp.default,
-            readFile: utils.readFile(video_ref.path),
             video_ref
         };
     },

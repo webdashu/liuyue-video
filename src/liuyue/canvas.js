@@ -5,9 +5,6 @@ const canvas = {
     prototoype() {
         this.CanVasID;
         this.CanVasEl;
-        this.CanVasWidth;
-        this.CanVasHeight;
-        this.CanVas;
         this.Video;
         this.Options;
     },
@@ -41,8 +38,8 @@ const canvas = {
     toCanvas2D(ctx) {
         return ctx.getContext('2d');
     },
-    drawImages(ctx,video) {
-        return this.toCanvas2D(ctx).drawImage(video, 0, 0, 1024, 768);
+    drawImages(ctx,video,x,y,w,h) {
+        return this.toCanvas2D(ctx).drawImage(video, x, y, w, h);
     },
     toDataURL(ctx){
         return ctx.toDataURL('image/jpg');

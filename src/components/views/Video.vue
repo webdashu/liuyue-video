@@ -18,7 +18,6 @@ var ui = def.ui({
 default concise
 */
 var ui_default = ui.default;
-ui.readFile
 </script>
 <template>
 <div v-html="ui_default" ref="video_ref"></div>

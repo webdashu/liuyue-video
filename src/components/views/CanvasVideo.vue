@@ -31,7 +31,7 @@ nextTick(() => {
     video = b[0].lastChild;
 });
 function drawImages() {
-    console.log(canvas.drawImages(ct, video));
+    console.log(canvas.drawImages(ct, video,0,0,props.videowidth,props.videoheight));
     console.log(canvas.toDataURL(ct));
 }
 </script>
