@@ -17,7 +17,7 @@
 
 js原型封装，强大的api，暂时提供v.0.1
 
-- public function
+- public function（公有方法）
 
 | name       | type    | return_type            | function_type | des | application |
 |------------|---------|------------------------|---------------|----|-------------|
